@@ -1,3 +1,4 @@
+import { PrismaClient } from './../../generated/prisma/index.d';
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
